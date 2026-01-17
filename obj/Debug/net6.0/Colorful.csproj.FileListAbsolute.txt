@@ -1,0 +1,8 @@
+C:\Users\PC\Desktop\Colorful\bin\Debug\net6.0\Colorful.deps.json
+C:\Users\PC\Desktop\Colorful\bin\Debug\net6.0\Colorful.dll
+C:\Users\PC\Desktop\Colorful\obj\Debug\net6.0\Colorful.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\Colorful\obj\Debug\net6.0\Colorful.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\Colorful\obj\Debug\net6.0\Colorful.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\Colorful\obj\Debug\net6.0\Colorful.AssemblyInfo.cs
+C:\Users\PC\Desktop\Colorful\obj\Debug\net6.0\Colorful.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\Colorful\obj\Debug\net6.0\Colorful.dll

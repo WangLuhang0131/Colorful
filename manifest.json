@@ -1,0 +1,8 @@
+{
+    "Name": "Colorful",
+    "Author": "WangLuhang",
+    "Version": "1.0.0",
+    "UniqueID": "WangLuhang.Colorful",
+    "EntryDll": "Colorful.dll",
+    "MinimumApiVersion": "4.0.0"
+}

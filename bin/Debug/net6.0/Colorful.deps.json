@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Colorful/1.0.0": {
+        "dependencies": {
+          "Lib.Harmony": "2.4.2",
+          "Pathoschild.Stardew.ModBuildConfig": "4.4.0"
+        },
+        "runtime": {
+          "Colorful.dll": {}
+        }
+      },
+      "Lib.Harmony/2.4.2": {
+        "runtime": {
+          "lib/net6.0/0Harmony.dll": {
+            "assemblyVersion": "2.4.2.0",
+            "fileVersion": "2.4.2.0"
+          }
+        }
+      },
+      "Pathoschild.Stardew.ModBuildConfig/4.4.0": {}
+    }
+  },
+  "libraries": {
+    "Colorful/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Lib.Harmony/2.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-D2X9ojVjqbqdqWVK3VQETrEb56yVoXxtEp6tP5UvW0PP+bA4uJiswqOxF8GhH02ECwyevUa9vwhwdLzyXfksbw==",
+      "path": "lib.harmony/2.4.2",
+      "hashPath": "lib.harmony.2.4.2.nupkg.sha512"
+    },
+    "Pathoschild.Stardew.ModBuildConfig/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Yi7/8bZlLS1bqZxft1yZWxJmIBfIoRxQBFIwWrF0AjC4/j/HmWdDC7dbNzzM4ZtOTtjOAQ8AC7WjP6KHgLPpdg==",
+      "path": "pathoschild.stardew.modbuildconfig/4.4.0",
+      "hashPath": "pathoschild.stardew.modbuildconfig.4.4.0.nupkg.sha512"
+    }
+  }
+}

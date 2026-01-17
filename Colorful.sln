@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colorful", "Colorful.csproj", "{83164069-A632-2E7C-B800-A1A12C6E16C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83164069-A632-2E7C-B800-A1A12C6E16C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83164069-A632-2E7C-B800-A1A12C6E16C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83164069-A632-2E7C-B800-A1A12C6E16C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83164069-A632-2E7C-B800-A1A12C6E16C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84FE8036-0D34-4A67-BBDD-95AD62703105}
+	EndGlobalSection
+EndGlobal
