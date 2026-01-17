@@ -11,8 +11,6 @@ internal static class ModPatches
 
     public static void Apply()
     {
-        DiscreteColorPicker.totalColors = 30;
-
         harmony.Patch(
             AccessTools.DeclaredMethod(typeof(DiscreteColorPicker), nameof(DiscreteColorPicker.draw)),
             transpiler: new HarmonyMethod(typeof(ModPatches), nameof(DiscreteColorPickerDrawTranspiler))
@@ -68,34 +66,20 @@ internal static class ModPatches
             4 => new Color(255, 255, 0),
             5 => new Color(255, 0, 255),
             6 => new Color(0, 255, 255),
-
             7 => new Color(255, 128, 0),
             8 => new Color(128, 255, 0),
             9 => new Color(0, 128, 255),
             10 => new Color(128, 0, 255),
             11 => new Color(255, 0, 128),
             12 => new Color(0, 255, 128),
-
             13 => new Color(200, 50, 50),
             14 => new Color(50, 200, 50),
             15 => new Color(50, 50, 200),
             16 => new Color(200, 200, 50),
             17 => new Color(200, 50, 200),
             18 => new Color(50, 200, 200),
-
-            19 => new Color(100, 100, 255),
-            20 => new Color(255, 100, 100),
-            21 => new Color(100, 255, 100),
-            22 => new Color(255, 200, 100),
-            23 => new Color(200, 100, 255),
-            24 => new Color(100, 255, 200),
-
-            25 => new Color(60, 60, 60),
-            26 => new Color(120, 120, 120),
-            27 => new Color(180, 180, 180),
-            28 => new Color(220, 220, 220),
-            29 => new Color(255, 255, 255),
-
+            19 => new Color(200, 200, 200),
+            20 => new Color(254, 254, 254),
             _ => Color.Black,
         };
     }

@@ -6,3 +6,4 @@ C:\Users\PC\Desktop\Colorful\obj\Debug\net6.0\Colorful.AssemblyInfoInputs.cache
 C:\Users\PC\Desktop\Colorful\obj\Debug\net6.0\Colorful.AssemblyInfo.cs
 C:\Users\PC\Desktop\Colorful\obj\Debug\net6.0\Colorful.csproj.CoreCompileInputs.cache
 C:\Users\PC\Desktop\Colorful\obj\Debug\net6.0\Colorful.dll
+C:\Users\PC\Desktop\Colorful\obj\Debug\net6.0\Colorful.sourcelink.json
