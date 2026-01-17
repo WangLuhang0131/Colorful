@@ -60,24 +60,24 @@ internal static class ModPatches
     {
         return selection switch
         {
-            1 => new Color(255, 0, 0),
-            2 => new Color(0, 255, 0),
-            3 => new Color(0, 0, 255),
-            4 => new Color(255, 255, 0),
-            5 => new Color(255, 0, 255),
-            6 => new Color(0, 255, 255),
-            7 => new Color(255, 128, 0),
-            8 => new Color(128, 255, 0),
-            9 => new Color(0, 128, 255),
-            10 => new Color(128, 0, 255),
-            11 => new Color(255, 0, 128),
-            12 => new Color(0, 255, 128),
-            13 => new Color(200, 50, 50),
-            14 => new Color(50, 200, 50),
-            15 => new Color(50, 50, 200),
-            16 => new Color(200, 200, 50),
-            17 => new Color(200, 50, 200),
-            18 => new Color(50, 200, 200),
+            1 => new Color(254, 255, 255), // A01
+            2 => new Color(72, 70, 78),    // B06
+            3 => new Color(47, 43, 47),    // B07
+            4 => new Color(0, 0, 0),       // B09
+            5 => new Color(205, 232, 255), // H01
+            6 => new Color(160, 226, 251), // H04
+            7 => new Color(65, 204, 255),  // H05
+            8 => new Color(62, 188, 226),  // H09
+            9 => new Color(54, 119, 210),  // H13
+            10 => new Color(24, 42, 132),  // H20
+            11 => new Color(51, 58, 149),  // H21
+            12 => new Color(52, 72, 142),  // H32
+            13 => new Color(133, 142, 221),// J08
+            14 => new Color(119, 134, 229),// J20
+            15 => new Color(73, 79, 199),  // J21
+            16 => new Color(255, 243, 235),// K01
+            17 => new Color(252, 221, 210),// K02
+            18 => new Color(255, 226, 206),// Z02
             19 => new Color(200, 200, 200),
             20 => new Color(254, 254, 254),
             _ => Color.Black,
